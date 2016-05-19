@@ -1,0 +1,20 @@
+target            uptime.app
+targettype        app
+
+uid               0x100039ce 0x10e34523
+targetpath        \system\apps\uptime
+
+sourcepath        .
+source            uptime.cpp
+
+resource          uptime_caption.rss
+
+userinclude       .
+
+systeminclude     \epoc32\include
+
+library           euser.lib
+library           aknnotify.lib eiksrv.lib
+lang sc
+
+aif             uptime.aif . uptimeaif.rss c24 icon1.bmp icon1msk.bmp icon2.bmp icon2msk.bmp
