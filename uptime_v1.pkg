@@ -1,0 +1,12 @@
+;Language - standard language definitions
+&EN
+
+; standard SIS file header
+#{"Uptime"},(0x10e34523),1,0,0
+
+;Supports Series 60 v 0.9
+(0x101F6F88), 0, 0, 0, {"Series60ProductID"}
+
+"..\epoc32\release\armi\urel\uptime.app"                  -"!:\system\apps\uptime\uptime.app"
+"..\epoc32\release\armi\urel\uptime_caption.rsc"  -"!:\system\apps\uptime\uptime_caption.rsc"
+"..\epoc32\release\armi\urel\uptime.aif"          -"!:\system\apps\uptime\uptime.aif"
